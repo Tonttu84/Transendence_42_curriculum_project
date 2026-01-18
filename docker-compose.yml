@@ -1,0 +1,42 @@
+services:
+  auth:
+    build: ./auth-service
+    container_name: auth-service
+    expose:
+      - "3003"
+    env_file:
+      - auth-service/.env
+    environment: 
+      PROD_DB_ADDRESS: db/auth.sqlite 
+    volumes:
+      - ./auth-service/db:/usr/src/app/db
+    networks:
+      - appnet
+
+  game:
+    environment: 
+      AUTH_URL: http://auth-service:3003
+    build: ./game-service
+    container_name: game-service
+    expose:
+      - "3001"
+    volumes: 
+      - ./game-service/data:/usr/src/app/data
+    networks:
+      - appnet
+
+  nginx:
+    build:
+      context: .
+      dockerfile: nginx/Dockerfile
+    container_name: nginx
+    ports:
+      - "5173:5173"
+    depends_on:
+      - auth
+      - game
+    networks:
+      - appnet
+
+networks:
+  appnet:

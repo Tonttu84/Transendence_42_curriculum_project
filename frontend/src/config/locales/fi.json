@@ -1,0 +1,212 @@
+{
+  "account": {
+    "continue": "Jatka",
+    "email": "Sähköpostiosoite",
+    "identifier": "Käyttäjätunnus tai sähköpostiosoite",
+    "invalid-identifier": "Virheellinen käyttäjätunnus tai sähköpostiosoite",
+    "invalid-password": "Virheellinen salasana",
+    "invalid-username": "Virheellinen käyttäjätunnus",
+    "login": {
+      "2fa": {
+        "enter-code": "Syötä 6-numeroinen koodi",
+        "invalid-code": "Virheellinen todennuskoodi",
+        "title": "Kaksivaiheinen tunnistautuminen",
+        "verify": "Vahvista"
+      },
+      "error": "Virheellinen käyttäjätunnus, sähköpostiosoite tai salasana",
+      "login-success": "Sisäänkirjautuminen onnistui, siirrytään päävalikkoon...",
+      "tab": "Kirjaudu sisään",
+      "title": "Kirjaudu tilillesi"
+    },
+    "password": "Salasana",
+    "register": {
+      "confirm-password": "Vahvista salasana",
+      "create-account": "Luo tili",
+      "create-account-success": "Tili luotu, siirrytään kirjautumissivulle...",
+      "email": {
+        "invalid": "Virheellinen sähköpostiosoite",
+        "required": "Sähköpostiosoite vaaditaan"
+      },
+      "error": "Tilin luominen epäonnistui",
+      "password": {
+        "hide-password": "Piilota salasana",
+        "must-match": "Salasanojen on täsmättävä",
+        "repeat-required": "Toista salasana",
+        "required": "Salasana pakollinen",
+        "show-password": "Näytä salasana",
+        "too-long": "Salasana ei saa ylittää 20 merkkiä",
+        "too-short": "Salasanan on oltava vähintään 3 merkkiä"
+      },
+      "tab": "Rekisteröidy",
+      "title": "Luo tili",
+      "username": {
+        "invalid": "Käyttäjätunnus saa sisältää vain kirjaimia ja numeroita (a-z, A-Z, 0-9)",
+        "required": "Käyttäjätunnus on pakollinen",
+        "too-long": "Käyttäjätunnus ei saa ylittää 20 merkkiä",
+        "too-short": "Käyttäjätunnuksen on oltava vähintään 3 merkkiä"
+      }
+    },
+    "sign-in-with-google": "Kirjaudu Google-tilillä",
+    "username": "Käyttäjätunnus"
+  },
+  "error-generic": "Tapahtui virhe. Yritä myöhemmin uudelleen.",
+  "footer": {
+    "language": {
+      "title": "Kieli"
+    },
+    "privacy-policy": "Tietosuojakäytäntö",
+    "terms-of-service": "Käyttöehdot",
+    "theme": {
+      "switch-to-dark": "Vaihda väriteema tummaan",
+      "switch-to-light": "Vaihda väriteema vaaleaan",
+      "title": "Väriteema"
+    }
+  },
+  "front-page": {
+    "begin": "Aloita",
+    "title": "Tervetuloa pelaamaan Pongia"
+  },
+  "game": {
+    "lobby": {
+      "active-matches": "Käynnissä olevat ottelut",
+      "error": "Virhe aktiivisten otteluiden haussa",
+      "error-queue": "Pelijonoon liittyminen epäonnistui",
+      "no-active-match": "Ei vielä aktiivisia otteluita. Laitetaan uusi tulille!",
+      "rejoin-match": "Palaa peliin",
+      "return-to-queue": "Palaa pelijonoon",
+      "spectate": "Katso",
+      "start-new-match": "Uusi ottelu",
+      "starting": " (alkaa pian)",
+      "title": "Peliaula"
+    },
+    "match": {
+      "back-to-main-menu": "Takaisin päävalikkoon",
+      "finished": "Ottelu päättynyt!",
+      "winner": "Voiton vei "
+    },
+    "queue": {
+      "waiting": "Odotetaan vastustajia..."
+    }
+  },
+  "header": {
+    "hello": "Hei, ",
+    "language": {
+      "chinese": "Kiina",
+      "english": "Englanti",
+      "finnish": "Suomi",
+      "german": "Saksa",
+      "russian": "Venäjä"
+    },
+    "language-select": "Kieli",
+    "main-menu": "Päävalikko",
+    "profile": "Profiili",
+    "sign-in": "Kirjaudu sisään",
+    "sign-out": "Kirjaudu ulos"
+  },
+  "main-menu": {
+    "sections": {
+      "game": {
+        "description": "Pelaa tai seuraa kaksinpelejä",
+        "title": "Peliaula"
+      },
+      "tournament": {
+        "description": "Luo, liity tai seuraa turnausta",
+        "title": "Turnausaula"
+      }
+    }
+  },
+  "profile": {
+    "avatar": {
+      "change-avatar": "Vaihda profiilikuva",
+      "error": "Profiilikuvan päivittäminen epäonnistui",
+      "input-url": "Lisää uuden profiilikuvan verkko-osoite:",
+      "invalid-url": "Virheellinen verkko-osoite"
+    },
+    "change-password": {
+      "confirm-new-password": "Vahvista uusi salasana",
+      "current-password": "Nykyinen salasana",
+      "error": "Salasanan vaihto epäonnistui",
+      "invalid-input": "Täytä kaikki salasanakentät oikein",
+      "new-password": "Uusi salasana",
+      "success": "Salasana vaihdettu onnistuneesti",
+      "title": "Vaihda salasana",
+      "update-button": "Vaihda salasana"
+    },
+    "friends": {
+      "add-button": "Lisää",
+      "add-friend-placeholder": "Lisää uusi ystävä...",
+      "failed-to-add": "Ystävän lisääminen epäonnistui",
+      "fallback": "Ystäviä ei vielä lisätty.",
+      "offline": "Ei aktiivinen",
+      "online": "Aktiivinen",
+      "status-col": "Tila",
+      "successfully-added": "Ystävä lisätty onnistuneesti",
+      "title": "Ystävät",
+      "users-col": "Käyttäjät"
+    },
+    "game-stats": {
+      "losses": "Häviöt",
+      "title": "Pelitilastot",
+      "wins": "Voitot"
+    },
+    "match-history": {
+      "fallback": "Otteluita ei ole vielä pelattu.",
+      "opponent": "Vastustaja",
+      "result": {
+        "lost": "Hävitty",
+        "title": "Tulos",
+        "won": "Voitettu"
+      },
+      "time": "Pelattu",
+      "title": "Otteluhistoria"
+    },
+    "settings": {
+      "2fa": {
+        "2fa-enabled": "Käytössä",
+        "cancel": "Peruuta",
+        "confirm": "Vahvista",
+        "confirm-password": "Anna salasana",
+        "disable-2fa": "Poista käytöstä",
+        "enable-2fa": "Ota käyttöön",
+        "enable-2fa-setup": "Skannaa tämä QR-koodi todennussovelluksella (Google Authenticator tai Authy) ja syötä 6-numeroinen koodi alle.",
+        "qr-code": "QR-koodi kaksivaiheista tunnistautumista varten",
+        "setup-code": "6-numeroinen koodi",
+        "title": "Kaksivaiheinen tunnistautuminen"
+      },
+      "title": "Asetukset"
+    }
+  },
+  "tournament": {
+    "lobby": {
+      "create-new-tournament": "Aloita uusi turnaus",
+      "current-champion": "Nykyinen mestari on ",
+      "error-failed-to-create": "Turnauksen luominen epäonnistui",
+      "error-failed-to-join": "Turnaukseen liittyminen epäonnistui",
+      "error-generic": "Virhe turnaustiedoissa",
+      "join-tournament": "Liity turnaukseen",
+      "no-active-tournament": "Turnaus ei vielä käynnissä. Aloita uusi!",
+      "rejoin-tournament": "Takaisin turnaukseen",
+      "return-to-queue": "Palaa turnausjonoon",
+      "spectate": "Katso",
+      "title": "Turnausaula",
+      "tournament-ongoing": "Turnaus on käynnissä!",
+      "tournament-starting": "Turnaus on alkamassa. Hyppää mukaan!"
+    },
+    "match": {
+      "final": "Finaali",
+      "finished": "Turnaus päättynyt!",
+      "semifinal-1": "Välierä 1",
+      "semifinal-2": "Välierä 2",
+      "winner": "Uusi mestari on "
+    },
+    "queue": {
+      "waiting-for-players": "Odotetaan pelaajia..."
+    },
+    "tooltip": {
+      "step-one": "Neljä pelaajaa liittyy turnaukseen",
+      "step-three": "Loppuottelu: Voittajat kilpailevat mestaruudesta!",
+      "step-two": "Välierät: 1. vs 2. pelaaja, 3. vs 4. pelaaja",
+      "title": "Miten turnaukset toimivat"
+    }
+  }
+}

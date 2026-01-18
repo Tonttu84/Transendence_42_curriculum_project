@@ -1,0 +1,212 @@
+{
+  "account": {
+    "continue": "Continue",
+    "email": "Email address",
+    "identifier": "Username or email address",
+    "invalid-identifier": "Invalid username or email",
+    "invalid-password": "Invalid password",
+    "invalid-username": "Invalid username",
+    "login": {
+      "2fa": {
+        "enter-code": "Enter 6-digit code",
+        "invalid-code": "Invalid authentication code",
+        "title": "Two-factor authentication",
+        "verify": "Verify"
+      },
+      "error": "Invalid username, email or password",
+      "login-success": "Login successful, navigating to main menu...",
+      "tab": "Sign in",
+      "title": "Sign in to your account"
+    },
+    "password": "Password",
+    "register": {
+      "confirm-password": "Confirm password",
+      "create-account": "Create an account",
+      "create-account-success": "Successfully created account, navigating to login page...",
+      "email": {
+        "invalid": "Invalid email",
+        "required": "Email address is required"
+      },
+      "error": "Failed to create account",
+      "password": {
+        "hide-password": "Hide password",
+        "must-match": "Passwords must match",
+        "repeat-required": "Please repeat your password",
+        "required": "Password is required",
+        "show-password": "Show password",
+        "too-long": "Password must not exceed 20 characters",
+        "too-short": "Password must be at least 3 characters"
+      },
+      "tab": "Register",
+      "title": "Create an account",
+      "username": {
+        "invalid": "Username must be alphanumeric (a-z, A-Z, 0-9)",
+        "required": "Username is required",
+        "too-long": "Username must not exceed 20 characters",
+        "too-short": "Username must be at least 3 characters"
+      }
+    },
+    "sign-in-with-google": "Sign in with Google",
+    "username": "Username"
+  },
+  "error-generic": "An error occurred. Please try again later.",
+  "footer": {
+    "language": {
+      "title": "Language"
+    },
+    "privacy-policy": "Privacy policy",
+    "terms-of-service": "Terms of service",
+    "theme": {
+      "switch-to-dark": "Switch to dark mode",
+      "switch-to-light": "Switch to light mode",
+      "title": "Theme"
+    }
+  },
+  "front-page": {
+    "begin": "Begin",
+    "title": "Welcome to Pong"
+  },
+  "game": {
+    "lobby": {
+      "active-matches": "Active matches",
+      "error": "Error fetching active matches",
+      "error-queue": "Failed to join game queue",
+      "no-active-match": "No active matches yet. Let's get one started!",
+      "rejoin-match": "Rejoin",
+      "return-to-queue": "Return to queue",
+      "spectate": "Watch",
+      "start-new-match": "New match",
+      "starting": " (starting soon)",
+      "title": "Game lobby"
+    },
+    "match": {
+      "back-to-main-menu": "Back to main menu",
+      "finished": "Match finished!",
+      "winner": "Victory claimed by "
+    },
+    "queue": {
+      "waiting": "Waiting for opponents..."
+    }
+  },
+  "header": {
+    "hello": "Hello, ",
+    "language": {
+      "chinese": "Chinese",
+      "english": "English",
+      "finnish": "Finnish",
+      "german": "German",
+      "russian": "Russian"
+    },
+    "language-select": "Language",
+    "main-menu": "Main menu",
+    "profile": "Profile",
+    "sign-in": "Sign in",
+    "sign-out": "Sign out"
+  },
+  "main-menu": {
+    "sections": {
+      "game": {
+        "description": "Play or spectate one-on-one matches",
+        "title": "Game lobby"
+      },
+      "tournament": {
+        "description": "Create, join or watch tournament",
+        "title": "Tournament lobby"
+      }
+    }
+  },
+  "profile": {
+    "avatar": {
+      "change-avatar": "Change avatar",
+      "error": "Failed to update avatar",
+      "input-url": "Enter image URL for new avatar...",
+      "invalid-url": "Invalid image URL"
+    },
+    "change-password": {
+      "confirm-new-password": "Confirm new password",
+      "current-password": "Current password",
+      "error": "Failed to change password",
+      "invalid-input": "Please fill in all password fields correctly",
+      "new-password": "New password",
+      "success": "Password changed successfully",
+      "title": "Change password",
+      "update-button": "Update password"
+    },
+    "friends": {
+      "add-button": "Add",
+      "add-friend-placeholder": "Add a new friend...",
+      "failed-to-add": "Failed to add friend",
+      "fallback": "No friends added yet.",
+      "offline": "Offline",
+      "online": "Online",
+      "status-col": "Status",
+      "successfully-added": "Friend added successfully",
+      "title": "Friends",
+      "users-col": "Users"
+    },
+    "game-stats": {
+      "losses": "Losses",
+      "title": "Game stats",
+      "wins": "Wins"
+    },
+    "match-history": {
+      "fallback": "No matches played yet.",
+      "opponent": "Opponent",
+      "result": {
+        "lost": "Lost",
+        "title": "Result",
+        "won": "Won"
+      },
+      "time": "Played at",
+      "title": "Match history"
+    },
+    "settings": {
+      "2fa": {
+        "2fa-enabled": "Enabled",
+        "cancel": "Cancel",
+        "confirm": "Confirm",
+        "confirm-password": "Confirm password",
+        "disable-2fa": "Disable",
+        "enable-2fa": "Enable",
+        "enable-2fa-setup": "Scan this QR code with your authenticator app (Google Authenticator or Authy) and paste the 6-digit code below.",
+        "qr-code": "QR code for two-factor authentication",
+        "setup-code": "6-digit code",
+        "title": "Two-factor authentication"
+      },
+      "title": "Settings"
+    }
+  },
+  "tournament": {
+    "lobby": {
+      "create-new-tournament": "New tournament",
+      "current-champion": "Current champion is ",
+      "error-failed-to-create": "Failed to create tournament",
+      "error-failed-to-join": "Failed to create tournament",
+      "error-generic": "Error fetching tournament data",
+      "join-tournament": "Join tournament",
+      "no-active-tournament": "No active tournament yet. Create one below!",
+      "rejoin-tournament": "Return to tournament",
+      "return-to-queue": "Return to queue",
+      "spectate": "Watch",
+      "title": "Tournament lobby",
+      "tournament-ongoing": "A tournament is ongoing!",
+      "tournament-starting": "A tournament is brewing. Jump in!"
+    },
+    "match": {
+      "final": "Final",
+      "finished": "Tournament finished!",
+      "semifinal-1": "Semifinal 1",
+      "semifinal-2": "Semifinal 2",
+      "winner": "New champion is "
+    },
+    "queue": {
+      "waiting-for-players": "Waiting for players..."
+    },
+    "tooltip": {
+      "step-one": "Four players join the tournament",
+      "step-three": "Finals: Winners face off for the championship!",
+      "step-two": "Semi-finals: 1st vs 2nd player, 3rd vs 4th player",
+      "title": "How tournaments work"
+    }
+  }
+}

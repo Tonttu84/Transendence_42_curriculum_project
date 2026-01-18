@@ -1,0 +1,212 @@
+{
+  "account": {
+    "continue": "继续",
+    "email": "电子邮件地址",
+    "identifier": "用户名或电子邮件地址",
+    "invalid-identifier": "无效的用户名或电子邮件",
+    "invalid-password": "密码错误",
+    "invalid-username": "用户名错误",
+    "login": {
+      "2fa": {
+        "enter-code": "输入6位数验证码",
+        "invalid-code": "身份验证代码无效",
+        "title": "两步验证",
+        "verify": "验证"
+      },
+      "error": "用户名或密码错误",
+      "login-success": "登录成功，正在跳转到主菜单...",
+      "tab": "登录",
+      "title": "登录到您的账户"
+    },
+    "password": "密码",
+    "register": {
+      "confirm-password": "确认密码",
+      "create-account": "创建账户",
+      "create-account-success": "账户创建成功，正在跳转到登录页面...",
+      "email": {
+        "invalid": "无效的电子邮件地址",
+        "required": "电子邮件地址是必需的"
+      },
+      "error": "创建账户失败",
+      "password": {
+        "hide-password": "隐藏密码",
+        "must-match": "2次输入的密码必须一致",
+        "repeat-required": "请重复输入您的密码",
+        "required": "密码是必需的",
+        "show-password": "显示密码",
+        "too-long": "密码不得超过20个字符",
+        "too-short": "密码必须至少包含3个字符"
+      },
+      "tab": "注册",
+      "title": "创建账户",
+      "username": {
+        "invalid": "用户名必须是字母数字（a-z，A-Z，0-9）",
+        "required": "用户名是必需的",
+        "too-long": "用户名不得超过20个字符",
+        "too-short": "用户名必须至少包含3个字符"
+      }
+    },
+    "sign-in-with-google": "使用Google登录",
+    "username": "用户名"
+  },
+  "error-generic": "发生错误。请稍后再试。",
+  "footer": {
+    "language": {
+      "title": "语言"
+    },
+    "privacy-policy": "隐私政策",
+    "terms-of-service": "服务条款",
+    "theme": {
+      "switch-to-dark": "切换到黑夜模式",
+      "switch-to-light": "切换到白天模式",
+      "title": "主题"
+    }
+  },
+  "front-page": {
+    "begin": "开始",
+    "title": "欢迎来到Pong"
+  },
+  "game": {
+    "lobby": {
+      "active-matches": "进行中的比赛",
+      "error": "获取进行中的比赛时出错",
+      "error-queue": "加入游戏队列失败",
+      "no-active-match": "目前还没有进行中的比赛，来开始一局吧！",
+      "rejoin-match": "重新加入",
+      "return-to-queue": "返回队列",
+      "spectate": "观看",
+      "start-new-match": "新比赛",
+      "starting": " (即将开始)",
+      "title": "游戏大厅"
+    },
+    "match": {
+      "back-to-main-menu": "返回主菜单",
+      "finished": "比赛结束！",
+      "winner": "胜利者是 "
+    },
+    "queue": {
+      "waiting": "等待对手中..."
+    }
+  },
+  "header": {
+    "hello": "你好, ",
+    "language": {
+      "chinese": "简体中文",
+      "english": "英语",
+      "finnish": "芬兰语",
+      "german": "德语",
+      "russian": "俄语"
+    },
+    "language-select": "语言",
+    "main-menu": "主菜单",
+    "profile": "个人资料",
+    "sign-in": "登录",
+    "sign-out": "登出"
+  },
+  "main-menu": {
+    "sections": {
+      "game": {
+        "description": "开始一对一比赛或观看比赛",
+        "title": "游戏大厅"
+      },
+      "tournament": {
+        "description": "创建、加入或观看锦标赛",
+        "title": "锦标赛大厅"
+      }
+    }
+  },
+  "profile": {
+    "avatar": {
+      "change-avatar": "更改头像",
+      "error": "无法更新头像",
+      "input-url": "输入新头像的图片URL...",
+      "invalid-url": "无效的图片URL"
+    },
+    "change-password": {
+      "confirm-new-password": "确认新密码",
+      "current-password": "当前密码",
+      "error": "修改密码失败",
+      "invalid-input": "请正确填写所有密码字段",
+      "new-password": "新密码",
+      "success": "密码修改成功",
+      "title": "更改密码",
+      "update-button": "更新密码"
+    },
+    "friends": {
+      "add-button": "添加",
+      "add-friend-placeholder": "添加新朋友...",
+      "failed-to-add": "添加朋友失败",
+      "fallback": "尚未添加朋友。",
+      "offline": "离线",
+      "online": "在线",
+      "status-col": "状态",
+      "successfully-added": "添加朋友成功",
+      "title": "朋友",
+      "users-col": "用户"
+    },
+    "game-stats": {
+      "losses": "失败",
+      "title": "游戏统计",
+      "wins": "胜利"
+    },
+    "match-history": {
+      "fallback": "尚未进行比赛。",
+      "opponent": "对手",
+      "result": {
+        "lost": "失败",
+        "title": "结果",
+        "won": "胜利"
+      },
+      "time": "比赛时间",
+      "title": "比赛历史"
+    },
+    "settings": {
+      "2fa": {
+        "2fa-enabled": "已启用",
+        "cancel": "取消",
+        "confirm": "确认",
+        "confirm-password": "确认密码",
+        "disable-2fa": "禁用",
+        "enable-2fa": "启用",
+        "enable-2fa-setup": "使用身份验证应用（Google Authenticator 或 Authy）扫描此二维码，并在下方输入6位数验证码。",
+        "qr-code": "两步验证的二维码",
+        "setup-code": "6位数代码",
+        "title": "两步验证"
+      },
+      "title": "设置"
+    }
+  },
+  "tournament": {
+    "lobby": {
+      "create-new-tournament": "新建锦标赛",
+      "current-champion": "当前冠军是 ",
+      "error-failed-to-create": "创建锦标赛失败",
+      "error-failed-to-join": "加入锦标赛失败",
+      "error-generic": "获取锦标赛数据时出错",
+      "join-tournament": "加入锦标赛",
+      "no-active-tournament": "尚未有进行中的锦标赛。在下面创建一个！",
+      "rejoin-tournament": "返回锦标赛",
+      "return-to-queue": "返回队列",
+      "spectate": "观战",
+      "title": "锦标赛大厅",
+      "tournament-ongoing": "锦标赛正在进行中。快来加入吧！",
+      "tournament-starting": "锦标赛即将开始，快来加入！"
+    },
+    "match": {
+      "final": "决赛",
+      "finished": "锦标赛结束！",
+      "semifinal-1": "半决赛 1",
+      "semifinal-2": "半决赛 2",
+      "winner": "新的冠军是 "
+    },
+    "queue": {
+      "waiting-for-players": "等待玩家中..."
+    },
+    "tooltip": {
+      "step-one": "四名玩家加入锦标赛",
+      "step-three": "决赛：胜者争夺冠军！",
+      "step-two": "半决赛：第1名对阵第2名，第3名对阵第4名",
+      "title": "锦标赛玩法"
+    }
+  }
+}

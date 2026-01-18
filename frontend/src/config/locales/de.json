@@ -1,0 +1,212 @@
+{
+  "account": {
+    "continue": "Weiter",
+    "email": "E-Mail-Adresse",
+    "identifier": "Benutzername oder E-Mail-Adresse",
+    "invalid-identifier": "Ungültiger Benutzername oder E-Mail-Adresse",
+    "invalid-password": "Password ungültig",
+    "invalid-username": "Benutzername ungültig",
+    "login": {
+      "2fa": {
+        "enter-code": "Geben Sie den 6-stelligen Code ein",
+        "invalid-code": "Ungültiger Authentifizierungscode",
+        "title": "Zwei-Faktor-Authentifizierung",
+        "verify": "Bestätigen"
+      },
+      "error": "Ungültiger Benutzername, E-Mail-Adresse oder Passwort",
+      "login-success": "Anmeldung erfolgreich, Weiterleitung zum Hauptmenü...",
+      "tab": "Anmelden",
+      "title": "Melden Sie sich bei Ihrem Konto an"
+    },
+    "password": "Passwort",
+    "register": {
+      "confirm-password": "Passwort bestätigen",
+      "create-account": "Konto erstellen",
+      "create-account-success": "Konto erfolgreich erstellt, weiterleiten zur Anmeldeseite... ",
+      "email": {
+        "invalid": "Ungültige E-Mail-Adresse",
+        "required": "E-Mail-Adresse erforderlich"
+      },
+      "error": "Konto konnte nicht erstellt werden",
+      "password": {
+        "hide-password": "Passwort verbergen",
+        "must-match": "Passwort muss übereinstimmen",
+        "repeat-required": "Passwort wiederholen",
+        "required": "Passwort erforderlich",
+        "show-password": "Passwort anzeigen",
+        "too-long": "Das Passwort darf 20 Zeichen nicht überschreiten",
+        "too-short": "Passwort muss mindestens 3 Zeichen beinhalten"
+      },
+      "tab": "Registrieren",
+      "title": "Konto erstellen",
+      "username": {
+        "invalid": "Der Benutzername muss alphanumerisch sein (a-z, A-Z, 0-9).",
+        "required": "Benutzernaem erforderlich",
+        "too-long": "Benutzername darf 20 Zeichen nicht überschreiten",
+        "too-short": "Benutzername muss mindestens 3 Zeichen beinhalten"
+      }
+    },
+    "sign-in-with-google": "Google Anmeldung",
+    "username": "Benutzername"
+  },
+  "error-generic": "Ein Fehler ist aufgetreten. Bitte versuchen Sie es später erneut.",
+  "footer": {
+    "language": {
+      "title": "Sprache"
+    },
+    "privacy-policy": "Datenschutzerklärung",
+    "terms-of-service": "Nutzungsbedingungen",
+    "theme": {
+      "switch-to-dark": "Zu Dark Mode wechseln",
+      "switch-to-light": "Zu Light Mode wechseln",
+      "title": "Thema"
+    }
+  },
+  "front-page": {
+    "begin": "Anfang",
+    "title": "Willkommen zu Pong!"
+  },
+  "game": {
+    "lobby": {
+      "active-matches": "Aktive Matches",
+      "error": "Fehler beim Abrufen aktiver Matches",
+      "error-queue": "Beitritt zur Warteschlange fehlgeschlagen",
+      "no-active-match": "Noch keine aktiven Matches. Lass uns eins starten!",
+      "rejoin-match": "Zurückkehren",
+      "return-to-queue": "Zurück zur Warteschlange",
+      "spectate": "Zuschauen",
+      "start-new-match": "Neues Match",
+      "starting": " (startet gleich)",
+      "title": "Spiellobby"
+    },
+    "match": {
+      "back-to-main-menu": "Zurück zum Hauptmenü",
+      "finished": "Match beendet!",
+      "winner": "Match gewonnen von "
+    },
+    "queue": {
+      "waiting": "Warte auf Gegner..."
+    }
+  },
+  "header": {
+    "hello": "Hallo, ",
+    "language": {
+      "chinese": "Chinesisch",
+      "english": "Englisch",
+      "finnish": "Finnisch",
+      "german": "Deutsch",
+      "russian": "Russisch"
+    },
+    "language-select": "Sprache",
+    "main-menu": "Hauptmenü",
+    "profile": "Profil",
+    "sign-in": "Anmelden",
+    "sign-out": "Abmelden"
+  },
+  "main-menu": {
+    "sections": {
+      "game": {
+        "description": "Spielen oder 1-gegen-1-Matches ansehen",
+        "title": "Spiel-Lobby"
+      },
+      "tournament": {
+        "description": "Turnier erstellen, beitreten oder ansehen",
+        "title": "Turnier-Lobby"
+      }
+    }
+  },
+  "profile": {
+    "avatar": {
+      "change-avatar": "Avatar ändern",
+      "error": "Avatar konnte nicht aktualisiert werden",
+      "input-url": "Bild-URL für neuen Avatar eingeben...",
+      "invalid-url": "Ungültige Bild-URL"
+    },
+    "change-password": {
+      "confirm-new-password": "Neues Passwort bestätigen",
+      "current-password": "Aktuelles Passwort",
+      "error": "Passwortänderung fehlgeschlagen",
+      "invalid-input": "Bitte füllen Sie alle Passwortfelder korrekt aus",
+      "new-password": "Neues Passwort",
+      "success": "Passwort erfolgreich geändert",
+      "title": "Passwort ändern",
+      "update-button": "Passwort ändern"
+    },
+    "friends": {
+      "add-button": "Hinzufügen",
+      "add-friend-placeholder": "Neuen Freund hinzufügen...",
+      "failed-to-add": "Freund konnte nicht hinzugefügt werden",
+      "fallback": "Noch keine Freunde hinzugefügt.",
+      "offline": "Offline",
+      "online": "Online",
+      "status-col": "Status",
+      "successfully-added": "Freund erfolgreich hinzugefügt",
+      "title": "Freunde",
+      "users-col": "Benutzer"
+    },
+    "game-stats": {
+      "losses": "Niederlagen",
+      "title": "Spiel Statistik",
+      "wins": "Siege"
+    },
+    "match-history": {
+      "fallback": "Noch keine Spiele gespielt.",
+      "opponent": "Gegner",
+      "result": {
+        "lost": "Verloren",
+        "title": "Ergebnis",
+        "won": "Gewonnen"
+      },
+      "time": "Gespielt am",
+      "title": "Spielhistorie"
+    },
+    "settings": {
+      "2fa": {
+        "2fa-enabled": "Aktiv",
+        "cancel": "Abbrechen",
+        "confirm": "Bestätigen",
+        "confirm-password": "Passwort eingeben",
+        "disable-2fa": "Deaktivieren",
+        "enable-2fa": "Aktivieren",
+        "enable-2fa-setup": "Scannen Sie diesen QR-Code mit Ihrer Authenticator-App (Google Authenticator oder Authy) und geben Sie unten den 6-stelligen Code ein.",
+        "qr-code": "QR-Code für die Zwei-Faktor-Authentifizierung",
+        "setup-code": "6-stelliger Code",
+        "title": "Zwei-Faktor-Authentifizierung"
+      },
+      "title": "Einstellungen"
+    }
+  },
+  "tournament": {
+    "lobby": {
+      "create-new-tournament": "Neues Turnier erstellen",
+      "current-champion": "Der aktuelle Champion ist ",
+      "error-failed-to-create": "Turnier konnte nicht erstellt werden",
+      "error-failed-to-join": "Beitritt zum Turnier fehlgeschlagen",
+      "error-generic": "Fehler beim Abrufen der Turnierdaten",
+      "join-tournament": "Turnier beitreten",
+      "no-active-tournament": "Noch kein aktives Turnier. Erstelle eines!",
+      "rejoin-tournament": "Zurück zum Turnier",
+      "return-to-queue": "Zurück zur Warteschlange",
+      "spectate": "Ansehen",
+      "title": "Turnierlobby",
+      "tournament-ongoing": "Ein Turnier läuft bereits!",
+      "tournament-starting": "Ein Turnier steht bevor. Mach mit!"
+    },
+    "match": {
+      "final": "Finale",
+      "finished": "Turnier beendet!",
+      "semifinal-1": "Halbfinale 1",
+      "semifinal-2": "Halbfinale 2",
+      "winner": "Neuer Champion — "
+    },
+    "queue": {
+      "waiting-for-players": "Warten auf Spieler..."
+    },
+    "tooltip": {
+      "step-one": "Vier Spieler treten dem Turnier bei",
+      "step-three": "Finale: Die Gewinner kämpfen um die Meisterschaft!",
+      "step-two": "Halbfinale: 1. gegen 2. Spieler, 3. gegen 4. Spieler",
+      "title": "Wie Turniere funktionieren"
+    }
+  }
+}
